@@ -321,8 +321,8 @@ if( is_admin() )
                       <h2>Просто радио.</h2>
                        <div class="app-desc">Это радио, а не проигрыватель и поэтому здесь нельзя вернуться к ранее проигранному треку, нельзя перематывать, можно лишь пропустить.то что вам не нравится.</div>
                         <div class="flex media">
-                          <a class="btn appstore" href="https://itunes.apple.com/app/ownradio/id1179868370?mt=8">	<img src="'.$appBut.'"/></a>
-                         <a class="btn appstore" href="https://itunes.apple.com/app/ownradio/id1179868370?mt=8"><img src="'.$googleBut.'"/></a>
+                          <a class="media-btn" href="https://itunes.apple.com/app/ownradio/id1179868370?mt=8">	<img class="media-pict" src="'.$appBut.'"/></a>
+                          <a class="media-btn" href="https://play.google.com/store/apps/details?id=ru.netvoxlab.ownradio"><img class="media-pict" src="'.$googleBut.'"/></a>
                         </div>
                       </div>
                    </div>
