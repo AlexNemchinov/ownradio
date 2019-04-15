@@ -291,13 +291,13 @@ if( is_admin() )
                      <div class="ownRadioPlayer-name" id="radioGroup"></div>
                    </div>
 
-                   <div style="display: '.$position.'; width: 100%; text-align: -webkit-center !important;">
+                   <div id="buttons_block" style="position:relative; display: '.$position.'; width: 100%; text-align: -webkit-center !important;">
 
                      <div id="radioPlay" class="play-but radioPlay">
-                       <img src="'.$pauseBut.'" class="image-block"  id="radioPlayB" style="width:80px; height:80px"/>
-                       <img src="'.$playBut.'" class="image-block " id="radioPause" style="width:80px; height:80px"/>
+                       <img src="'.$pauseBut.'" class="image-block"  id="radioPlayB" style="width:100%; height:80px; margin-left:auto; margin-right:auto;"/>
+                       <img src="'.$playBut.'" class="image-block " id="radioPause" style="width:100%; height:80px; margin-left:auto;margin-right: auto"/>
                      </div>
-                      <img src="'.$nextBut.'" class="image-block radioNext" id="radioNext" style="width:50px; height:50px"/>
+                     <img src="'.$nextBut.'" class="image-block radioNext" id="radioNext" style="width:50px; height:50px"/>
 
                      <div class="progress-block"style="width: 95%; margin-top: 40px;">
 
